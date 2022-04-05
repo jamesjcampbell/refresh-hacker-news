@@ -38,3 +38,6 @@ In order to cache the data I was thinking about adding a useReducer hook in the 
 
 For the testing I copied a lot of mocks from the Shell to the StoryPage tests and this could be refactored to a shared mocks file.
 
+## Thanks
+Thank you for taking the time to review my application, I enjoyed the process of creating it.
+All going well it should be possible to preview the site using Netlify here: https://thunderous-dolphin-20169e.netlify.app/
