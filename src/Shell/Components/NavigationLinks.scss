@@ -1,0 +1,20 @@
+@use '~open-color' as oc;
+
+.navigation-links {
+    > div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        &:hover {
+            background-color: oc.$oc-gray-4;
+            color: oc.$oc-orange-6;
+            svg {
+                stroke: oc.$oc-orange-4;
+            }
+        }
+    }
+    .active-list {
+        color: oc.$oc-orange-6;
+    }
+}
