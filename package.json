@@ -29,7 +29,7 @@
     ],
     "rules": {
       "semi": [1, "always"],
-      "indent": ["warn", 4],
+      "indent": ["warn", 4]
     }
   },
   "browserslist": {
